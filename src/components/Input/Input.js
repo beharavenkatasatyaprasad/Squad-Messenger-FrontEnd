@@ -1,5 +1,4 @@
 import React  from "react";
-import "emoji-mart/css/emoji-mart.css";
 import "./Input.css";
 
 const Input = ({ setMessage, sendMessage, message }) => (
