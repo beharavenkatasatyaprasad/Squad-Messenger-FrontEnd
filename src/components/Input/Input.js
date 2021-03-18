@@ -1,8 +1,6 @@
 import React  from "react";
 import "emoji-mart/css/emoji-mart.css";
-import { NimblePicker } from "emoji-mart";
 import "./Input.css";
-import data from 'emoji-mart/data/google.json'
 
 const Input = ({ setMessage, sendMessage, message }) => (
   <form className="form">
