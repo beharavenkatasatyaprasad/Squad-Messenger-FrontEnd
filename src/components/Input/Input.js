@@ -1,6 +1,8 @@
-import React from "react";
-
+import React  from "react";
+import "emoji-mart/css/emoji-mart.css";
+import { NimblePicker } from "emoji-mart";
 import "./Input.css";
+import data from 'emoji-mart/data/google.json'
 
 const Input = ({ setMessage, sendMessage, message }) => (
   <form className="form">
@@ -14,10 +16,8 @@ const Input = ({ setMessage, sendMessage, message }) => (
         event.key === "Enter" ? sendMessage(event) : null
       }
     />
-    <button
-      className="btn-primary sendButton"
-      onClick={(e) => sendMessage(e)}
-    >
+    <button className="btn-primary sendButton" onClick={(e) => sendMessage(e)}>
+      SEND 
       <i class="fa fa-paper-plane" aria-hidden="true"></i>
     </button>
   </form>
