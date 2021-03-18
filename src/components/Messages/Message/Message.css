@@ -15,6 +15,9 @@
   word-wrap: break-word;
 }
 
+p{
+  margin-bottom: 0px !important;
+}
 .messageText img {
   vertical-align: middle;
 }
@@ -63,5 +66,5 @@
 }
 
 .backgroundLight {
-  background: #F3F3F3;
+  background: #f0c7c7;
 }

@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Poppins";
   padding: 0;
   margin: 0;
 }
@@ -19,38 +22,55 @@ body {
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #8BC6EC;
-  background-image: linear-gradient(105.3deg, rgba(30, 39, 107, 1) 21.8%, rgba(77, 118, 221, 1) 100.2%);
+  background-color: #000000;
 }
-
 
 .joinInnerContainer {
   width: 30%;
 }
 
 .joinInput {
-  border-radius: 0;
   padding: 15px 20px;
   width: 100%;
 }
 
 .heading {
-  color: white;
+  font-family: "Redressed";
+  color: #e53935;
   font-size: 2.5em;
+  font-weight: 600;
   padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
 
 .button {
-  color: #fff !important;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #2979FF;
-  padding: 20px;
-  border-radius: 5px;
+  background-image: linear-gradient(
+    to right,
+    #e53935 0%,
+    #e35d5b 51%,
+    #e53935 100%
+  );
+}
+.button {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
   display: inline-block;
   border: none;
   width: 100%;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.button:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
 }
 
 .mt-20 {
@@ -65,8 +85,6 @@ body {
   .joinInnerContainer {
     width: 90%;
   }
-
-
 }
 
 button:focus {

@@ -16,12 +16,23 @@ input:focus, textarea:focus, select:focus{
 }
 
 .sendButton {
+  background-image: linear-gradient(
+    to right,
+    #e53935 0%,
+    #e53935 100%
+  ) !important;
   color: #fff !important;
-  text-transform: uppercase;
-  text-decoration: none;
   background: #2979FF;
-  padding: 20px;
+  padding: 18px;
   display: inline-block;
   border: none;
   width: 20%;
+  font-size: 25px;
+  border-radius: 0px;
+  cursor:pointer;
+  transition: all 0.5ms;
+}
+
+.sendButton:hover {
+  opacity: 0.9;
 }

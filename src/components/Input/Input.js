@@ -15,10 +15,10 @@ const Input = ({ setMessage, sendMessage, message }) => (
       }
     />
     <button
-      className="btn btn-primary sendButton"
+      className="btn-primary sendButton"
       onClick={(e) => sendMessage(e)}
     >
-      Send
+      <i class="fa fa-paper-plane" aria-hidden="true"></i>
     </button>
   </form>
 );
