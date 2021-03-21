@@ -1,13 +1,15 @@
 .form {
   display: flex;
   border-top: 2px solid #D3D3D3;
+  margin: 1%;
+
 }
 
 .input {
   border: none;
   border-radius: 0;
   padding: 2%;
-  width: 80%;
+  width: 85%;
   font-size: 1.2em;
 }
 
@@ -22,17 +24,17 @@ input:focus, textarea:focus, select:focus{
     #e53935 100%
   ) !important;
   color: #fff !important;
-  background: #2979FF;
-  padding: 18px;
+  padding: 15px;
   display: inline-block;
   border: none;
-  width: 20%;
-  font-size: 25px;
+  width: 15%;
+  font-size: 150%;
   border-radius: 0px;
   cursor:pointer;
   transition: all 0.5ms;
 }
 
-.sendButton:hover {
-  opacity: 0.9;
+.sendButton:hover{
+  color: #000000 !important;
+  background-color: #6495ed !important;
 }

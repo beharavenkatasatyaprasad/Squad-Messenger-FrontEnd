@@ -14,7 +14,6 @@ const Input = ({ setMessage, sendMessage, message }) => (
       }
     />
     <button className="btn-primary sendButton" onClick={(e) => sendMessage(e)}>
-      SEND 
       <i class="fa fa-paper-plane" aria-hidden="true"></i>
     </button>
   </form>
