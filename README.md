@@ -8,7 +8,7 @@
 
 ### About:
 
-This is a real-time chat application built using React (Create React App on the frontend) and NodeJS/Express/Socket.io Backend.
+This is a real-time chat application built using React (Create React App on the frontend) and NodeJS/Express/Socket.io (on the Backend).
 
 Users are able to join groups and message other users in real-time.
 
