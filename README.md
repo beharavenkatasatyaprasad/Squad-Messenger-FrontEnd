@@ -19,17 +19,6 @@ Users are able to join groups and message other users in real-time.
 * CSS
 * Bootstrap
 
-
-### Screenshots
-
-<p align="center">
-    <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/create.png">  
-</p>
-
-<p align="center">
-    <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/chat.png">  
-</p>
-
 ## Software 
 
 Before proceeding, please ensure you have the following software installed on your computer.
