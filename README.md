@@ -1,7 +1,7 @@
 # Squad-Messenger-FrontEnd
 
 <p align="center">
-    <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/logo.png">  
+    <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/gif.gif">  
 </p>
 
 ### About:
