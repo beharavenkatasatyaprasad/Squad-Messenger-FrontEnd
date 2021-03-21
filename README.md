@@ -4,6 +4,8 @@
     <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/gif.gif">  
 </p>
 
+### [Live Demo](https://squad-messenger.netlify.app/)
+
 ### About:
 
 This is a real-time chat application built using React (Create React App on the frontend) and NodeJS/Express/Socket.io Backend.
