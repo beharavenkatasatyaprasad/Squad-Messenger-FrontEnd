@@ -1,5 +1,9 @@
 # Squad-Messenger-FrontEnd
 
+<p align="center">
+    <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/logo.png">  
+</p>
+
 ### About:
 
 This is a real-time chat application built using React (Create React App on the frontend) and NodeJS/Express/Socket.io Backend.
@@ -19,7 +23,11 @@ Users are able to join groups and message other users in real-time.
 ### Screenshots
 
 <p align="center">
-    <img src="http://git-assets.react-starter-kit.com/react_chat_app.png">  
+    <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/create.png">  
+</p>
+
+<p align="center">
+    <img src="https://github.com/beharavenkatasatyaprasad/Squad-Messenger-FrontEnd/blob/master/public/chat.png">  
 </p>
 
 ## Software 
